@@ -15,7 +15,7 @@ buzzsprout_api_key = config['database']['buzzsprout_api_key']
 podcast_id = config['database']['podcast_id']
 url = "https://www.buzzsprout.com/api/" + podcast_id + "/episodes.json"
 
-# print episodes from api
+# print episodes from API
 headers = {
     "Authorization": buzzsprout_api_key
 }
