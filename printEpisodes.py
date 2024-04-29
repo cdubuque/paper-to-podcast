@@ -2,7 +2,7 @@ import requests
 import os
 import json
 
-# import config file
+# import config file with Buzzsprout podcast id and api key
 with open('config.json', 'r') as file:
     content = file.read()
     if not content:
