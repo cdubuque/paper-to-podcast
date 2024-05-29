@@ -1,0 +1,11 @@
+openai
+pathlib
+PyPDF2
+os
+requests
+json
+re
+pytz
+azure.storage.blob
+datetime
+dotenv
